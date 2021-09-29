@@ -150,7 +150,7 @@ await app.posts.update({
 })
 
 // destroy it
-await app.posts.destroy({
+await app.posts.delete({
   postID: 'fake-post-id'
 })
 
